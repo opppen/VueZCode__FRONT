@@ -1,0 +1,8 @@
+@font-face {
+  /* 自己定義引用時的名稱 */
+  font-family: "FiraCode";
+  /* 把字體引用進來，3個都要 */
+  src: url("../font/FiraCode-Bold.ttf") format("woff"),
+    url("../font/FiraCode-Bold.ttf") format("truetype"),
+    url("../font/FiraCode-Bold.ttf") format("embedded-opentype");
+}
