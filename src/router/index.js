@@ -218,6 +218,8 @@ const router = createRouter({
 router.afterEach((to, from) => {
   // 把網站的標題改成要去的地方標題
   document.title = to.meta.title
+  // 跳頁後位置自動在最上面
+  window.scrollTo(0, 0)
 })
 // next重新導向
 router.beforeEach((to, from, next) => {
